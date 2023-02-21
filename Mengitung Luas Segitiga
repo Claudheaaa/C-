@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int alas, tinggi, hasil;
+	string ulangi;
+	
+	cout << "Kalkuator Perhitungan Segitiga" <<endl;
+	cout << "Masukkan alas :"<< endl;
+	cin>>alas;
+	cout<<"Masukkan tinggi ;" <<endl;
+	cin>>tinggi;
+	
+	hasil=alas*tinggi/2;
+	
+	cout<<"Luas segitiga adalah " << hasil << endl;
+	return 0;
+}
